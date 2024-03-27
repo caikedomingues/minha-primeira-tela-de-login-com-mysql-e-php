@@ -1,0 +1,171 @@
+
+
+
+
+
+/*Estilo da página inteira*/
+body{
+
+   /* background-image: url(link da imagem): código para colocar uma imagem de fundo*/
+    /*Cor de fundo da página*/
+    background-color: #EEEBD3;
+
+   
+}
+
+
+/*Design dos elementos da lista no main */
+main li{
+
+    display: inline-block;
+
+    padding: 30px;
+
+    text-align: center;
+
+    background-color: black;
+
+    color: white;
+
+    border-radius: 50px;
+
+    margin-left: 120px;
+}
+
+/*Design dos link do main*/
+main a{
+
+    color: white;
+
+    border-radius: 50px;
+}
+
+/*desing das classes de botões do menu*/
+.inicio{
+
+    color:#F3FFB9;
+
+    text-decoration: underline;
+}
+
+.atualizar-cadastro{
+
+    color: #F3FFB9;
+
+    text-decoration: underline;
+}
+
+
+.apagar-cadastro{
+
+    color: #F3FFB9;
+
+    text-decoration: underline;
+}
+
+.pesquisar-cadastro{
+
+    color: #F3FFB9;
+
+    text-decoration: underline;
+}
+
+
+/*Design das seções da página*/
+section{
+
+    text-align: center;
+
+    color: black;
+
+    background-color: white/*cor antiga: #5F7367*/;
+
+    margin-top: 200px;
+
+    padding-top: 50px;
+
+    padding-bottom: 50px;
+
+    border-radius: 40px;
+
+    margin-left: 600px;
+
+    margin-right: 600px;
+
+    
+}
+
+
+/*Estilização das imagens de seções que contém formulários*/
+.imagem-perfil{
+
+    height: 30px;
+
+    margin-bottom: 20px;
+
+    margin-left: 50px;
+}
+
+/*estilização dos inputs de usuário*/
+.input-usuario{
+
+    margin-bottom: 30px;
+    /*border: none: código para tirar a borda dos inputs*/
+
+    border-radius: 30px;
+
+}
+
+/*estilização dos inputs de senha*/
+.input-senha{
+
+    border-radius: 30px;
+}
+
+/*Estilização dos labels de senha*/
+.label-senha{
+
+    padding-right: 5px;
+}
+
+
+/*Estilização dos botões de formulário*/
+.botao-entrar{
+
+    margin-top: 20px;
+
+    margin-left: 60px;
+
+    border-radius: 30px;
+
+    padding-left: 30px;
+
+    padding-right: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+}
+
+/*Estilização do link para voltar a página de login*/
+.link-voltar{
+
+    margin-right: 60px;
+
+}
+
+/*Estilização dos links*/
+a{
+
+    text-decoration: none;
+
+    color:black;
+}
+
+/*Estilização da interação com os links*/
+a:hover{
+
+    text-decoration: underline;
+
+    color: #F3FFB9;
+}
